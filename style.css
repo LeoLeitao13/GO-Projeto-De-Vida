@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Roboto+Mono:wght@400;600&display=swap');
+
+body{
+    background-color: #454545;
+    font-family: 'Krona One', sans-serif;
+    color: #FF6000;
+}
+
+.cabecalho__logo{
+    height: 3em;
+    margin: 1em;
+}
+.cabecalho__texto{
+    margin: 1em;
+}
+
+.cabecalho{
+    background-color: #535353;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.section__objetivo{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section__text{
+    margin-top: 1em;
+    font-size: 32px;
+    padding-bottom: 1em;
+}
+
+.section__p{
+    color: #FFA559;
+    margin-bottom: 0.5em;
+}
+
+.imagem__leo{
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .imagem__leo{
+        width: 25%;
+        margin-bottom: 1em;
+    }
+   .imagem__leo-2{
+    width: 50%;
+    margin-bottom: 2em;
+   }
+   .final{
+    margin-bottom: 2em;
+   }
+   .footer{
+    text-align: center;
+    justify-content: center;
+    padding-left: 40%;
+   }
+}
